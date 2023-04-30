@@ -47,11 +47,13 @@ body {
   line-height: 1.5;
   color: #4d5ae5;
   background: #f4f4fd;
-}
+  letter-spacing: 0.04em;
+  }
 
 .filter-item:hover,
 .filter-item:focus {
   background: #404bbf;
+  color: #ffffff;
 }
 
 .contacts-style {
@@ -164,4 +166,12 @@ body {
 
 .team-list {
   background-color: #ffffff;
+}
+
+.titles-sections {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-studio);
 }
